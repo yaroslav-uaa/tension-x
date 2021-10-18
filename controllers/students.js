@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 const getAllStudents = async (req, res) => {
     try {
         const students = await prisma.student.findMany()
-        res.status(200).json(students)
+        res.json(students)
     } catch (e) {
         res.status(500).send(e)
     }

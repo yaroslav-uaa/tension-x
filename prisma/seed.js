@@ -314,7 +314,8 @@ const studentData = [
 
             ],
         },
-    }, {
+    },
+    {
         name: 'Annette Black',
         class: '1D',
         avScore: 91,
@@ -364,7 +365,8 @@ const studentData = [
                 },
             ],
         },
-    }, {
+    },
+    {
         name: 'Courtney Henry',
         class: '1D',
         avScore: 96,
